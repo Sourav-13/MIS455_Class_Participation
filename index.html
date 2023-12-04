@@ -1,21 +1,21 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h3> </h3>
-    Search for your Meal: <br>
-    <input id="searchBox" placeholder="enter meal name" type="text"> <br>
-    <br>
-    <button onclick="connect()"> Search</button>
-
-    <div id ='container'>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurent Menu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <div class="form">
+        <h2 style="font-size: 35px;">Search Your Desired Menu from Our Restaurant</h2>
+      <h3>Search for your Meal: </h3><br />
+      <input id="searchBox" class="searchBox" placeholder="Enter food based on your nationality. Such as: 'American'" type="text" />
+      <br />
+      <button onclick="connect()">Search</button>
     </div>
+    <div id="container"></div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
